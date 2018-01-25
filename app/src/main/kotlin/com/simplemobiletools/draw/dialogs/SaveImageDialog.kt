@@ -17,7 +17,7 @@ import java.io.OutputStream
 
 class SaveImageDialog(val activity: SimpleActivity, val suggestedExtension: String, val curPath: String, val canvas: MyCanvas,
                       callback: (path: String, extension: String) -> Unit) {
-    private val SIMPLE_DRAW = "Simple Draw"
+    private val SIMPLE_DRAW = "Basit Çizim"
 
     init {
         val initialFilename = getInitialFilename()
